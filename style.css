@@ -1,2 +1,45 @@
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
 
+.header {
+   flex: 1;
+   display: flex;
+   justify-content: space-between;
+   background-color: #1f2937;
+   color: white;
+}
 
+.header ul {
+   display: flex;
+   gap: 10px;
+}
+
+.body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.body .first-row {
+   flex: 3;
+   display: flex;
+}
+
+.body .second-row {
+   flex: 3;
+}
+
+.body .third-row {
+   flex: 3;
+}
+
+.body .fourth-row {
+   flex: 2;
+}
+
+.footer {
+   flex: 1;
+}
