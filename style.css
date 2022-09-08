@@ -2,20 +2,37 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   font-family: roboto;
 }
 
 .header {
    flex: 1;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    background-color: #1f2937;
    color: white;
+   align-items: center;
+   flex-grow: 1;
+}
+
+.logo {
+   font-size: 20px;
 }
 
 .header ul {
    display: flex;
    gap: 10px;
+   list-style-type: none;
+   align-content: center;
+   padding-left: 60px;
 }
+
+.header ul a {
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+}
+
 
 .body {
    display: flex;
@@ -26,6 +43,8 @@ body {
 .body .first-row {
    flex: 3;
    display: flex;
+   background-color: #1f2937;
+   color: white;
 }
 
 .body .second-row {
