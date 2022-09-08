@@ -47,6 +47,14 @@ body {
    color: white;
 }
 
+.body .first-row .left-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.first-row .first-row-subtex {
+}
 .body .second-row {
    flex: 3;
 }
