@@ -8,6 +8,7 @@ html {
    height: 100%;
 }
 
+
 body {
    font-family: roboto;
    display: flex;
@@ -44,15 +45,66 @@ body {
 
 .header-links {
    display: flex;
-   align-items: center;
+   align-items: center;   
 }
 
 .first-row {
    display: flex;
    justify-content: space-around;
    flex: 4 1 auto;
+   background-color: #1f2937;
+   color: #f9faf8;
 }
 
+.left-item {
+   display: flex;
+   height: auto;
+   width: 320px;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 2px;
+}
+
+.first-row .left-item .bold-text {
+   font-size: 48px;
+   font-weight: bolder;
+}
+
+.left-item {
+   font-size: 18px;
+   color: #e5e7eb;
+}
+
+.button-box {
+   display: flex;
+   background-color: #3882f6;
+   padding: 2px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 6px;
+   margin-top: 6px;
+}
+
+.sign-up-button {
+   text-decoration: none;
+   color: #f9faf8;
+}
+
+.right-item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: -168px;
+}
+.image-holder {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+   width: 400px;
+   background-color: grey;
+}
 .second-row {
    display: flex;
    justify-content: space-around;
