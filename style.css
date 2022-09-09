@@ -52,3 +52,27 @@ body {
    justify-content: space-around;
    flex: 4 1 auto;
 }
+
+.second-row {
+   display: flex;
+   justify-content: space-around;
+   flex: 4 1 auto;
+}
+
+.third-row {
+   display: flex;
+   justify-content: space-around;
+   flex: 4 1 auto;
+}
+
+.fourth-row {
+   display: flex;
+   justify-content: space-around;
+   flex: 3 1 auto;
+}
+
+.footer {
+   display: flex;
+   justify-content: space-around;
+   flex: 1 1 auto;
+}
