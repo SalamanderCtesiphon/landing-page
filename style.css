@@ -16,3 +16,30 @@ body {
    height: 100%;
 }
 
+.header {
+   background-color: #1f2937;
+   color: #f9faf8;
+   display: flex;
+   justify-content: space-around;
+}
+
+.header .logo {
+   font-size: 24px;
+}
+
+.header .header-links ul li a {
+   color: #f9faf8;
+   text-decoration: none;
+   padding-left: 14px;
+}
+
+.header .header-links ul {
+   list-style: none;
+   display: flex;
+   font-size: 18px;
+}
+
+.header-links {
+   display: flex;
+   align-items: center;
+}
