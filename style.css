@@ -107,8 +107,43 @@ body {
 }
 .second-row {
    display: flex;
-   justify-content: space-around;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    flex: 4 1 auto;
+}
+
+.second-row-header {
+   font-size: 36px;
+   color: #1f2937;
+   font-weight: bolder;
+}
+
+.second-row-items ul {
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+.icon {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   width: 160px;
+   gap: 40px;
+   margin: 20px;
+  }
+
+.icon .box {
+   background-color: white;
+   border: 2px solid #3882f6;
+   height: 160px;
+   width: 160px;
+   border-radius: 12px;
+   margin-bottom: -35px;
 }
 
 .third-row {
