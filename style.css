@@ -21,10 +21,13 @@ body {
    color: #f9faf8;
    display: flex;
    justify-content: space-around;
+   flex: 1 1 auto;
 }
 
 .header .logo {
    font-size: 24px;
+   display: flex;
+   align-items: center;
 }
 
 .header .header-links ul li a {
@@ -42,4 +45,10 @@ body {
 .header-links {
    display: flex;
    align-items: center;
+}
+
+.first-row {
+   display: flex;
+   justify-content: space-around;
+   flex: 4 1 auto;
 }
