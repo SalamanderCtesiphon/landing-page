@@ -15,7 +15,7 @@ p {
 
 .header {
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    align-items: center;
    height: 40px;
    background-color: #1f2937;
@@ -24,6 +24,12 @@ p {
 
 .logo {
    font-size: 20px;
+   margin-left: 230px;
+}
+
+h1 {
+   display: flex;
+   align-items: flex-start;
 }
 
 .header ul {
@@ -32,6 +38,7 @@ p {
    list-style-type: none;
    align-content: center;
    padding-left: 60px;
+   margin-right: 160px;
 }
 
 .header ul a {
@@ -48,8 +55,47 @@ p {
    background-color: #1f2937;
    color: white;
    height: 360px;
+   justify-content: space-evenly;
 }
 
+h2 {
+   font-size: 48px;
+   font-weight: bolder;
+   height: auto;
+   width: 400px;
+}
+
+.first-row-subtext {
+   height: auto;
+   width: 400px;
+}
+
+.left-item {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.page.first-row.left-item.sign-up-button {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.right-item {
+   box-sizing: border-box;
+   height: 200px;
+   width: 400px;
+   background-color: grey;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+}
+
+img {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 .body .first-row .left-item {
    display: flex;
    flex-direction: column;
