@@ -64,6 +64,8 @@ body {
    align-items: flex-start;
    justify-content: center;
    padding: 2px;
+   margin-top: 100px;
+   margin-bottom: 100px;
 }
 
 .first-row .left-item .bold-text {
@@ -117,6 +119,8 @@ body {
    font-size: 36px;
    color: #1f2937;
    font-weight: bolder;
+   margin: 40px;
+   margin-top: 100px;
 }
 
 .second-row-items ul {
@@ -125,6 +129,7 @@ body {
    justify-content: space-between;
    margin-left: 100px;
    margin-right: 100px;
+   margin-bottom: 100px;
 }
 
 .icon {
@@ -163,14 +168,15 @@ body {
    font-size: 36px;
    font-style: italic;
    color: #1f2937;
-   margin-top: 40px;
+   margin-top: 100px;
 }
 
 .person-quoted {
-   font-weight: bolder;
+   font-weight: 900;
    display: inherit;
    margin-left: 300px;
-   margin-bottom: 40px;
+   margin-bottom: 80px;
+   margin-top: 10px;
 }
 .fourth-row {
    display: flex;
