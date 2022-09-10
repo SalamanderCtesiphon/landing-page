@@ -162,7 +162,7 @@ body {
 
 .quote {
    display: flex;
-   height: auto;
+   height: 300px;
    width: 500px;
    justify-content: center;
    font-size: 36px;
@@ -184,8 +184,45 @@ body {
    flex: 3 1 auto;
 }
 
-.footer {
+.fourth-row-box {
+   height: 150px;
+   width: 800px;
+   background-color: #3882f6;
+   border-radius: 12px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   color: #e5e7eb;
    display: flex;
    justify-content: space-around;
-   flex: 1 1 auto;
+   align-items: center;
+}
+
+.fourth-row-header {
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.sign-up-button-bottom {
+   text-decoration: none;
+   color: #e5e7eb;
+   border: 1px solid #e5e7eb;
+   height: 60px;
+   width: 360px;
+   border-radius: 6px;
+   padding: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
+.footer {
+   background-color: #1f2937;
+   color: #f9faf8;
+   display: flex;
+   justify-content: space-around;
+   flex: 1 1 auto;;
+}
+
+.footer-text {
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
