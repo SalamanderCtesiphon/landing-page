@@ -1,5 +1,6 @@
 # landing-page
 css project
 
-first project to utilize all that i have learned so far
+## Description
+A static landing page for a fictional company, one of the project assignments for the Odin Project.
 
